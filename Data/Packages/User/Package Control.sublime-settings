@@ -1,0 +1,22 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"CTags",
+		"Emmet",
+		"Git",
+		"HTML Snippets",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeEnhancedUtilitiesSet",
+		"SublimeLinter",
+		"SublimePythonIDE",
+		"SublimeREPL",
+		"Theme - Spacegray"
+	]
+}

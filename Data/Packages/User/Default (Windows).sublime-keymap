@@ -1,0 +1,131 @@
+[   
+    { "keys": ["ctrl+x"], "command": "cut" },
+    { "keys": ["ctrl+c"], "command": "copy" },
+    { "keys": ["ctrl+v"], "command": "paste" },
+    { "keys": ["ctrl+shift+v"], "command": "paste_and_indent" },
+    { "keys": ["alt+v"], "command": "paste_from_history" },
+
+    { "keys": ["alt+n"], "command": "move", "args": {"by": "characters", "forward": false} },       //上下左右移动
+    { "keys": ["alt+m"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+    { "keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+    { "keys": ["shift+alt+n"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+    { "keys": ["shift+alt+m"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+    { "keys": ["shift+alt+k"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+    { "keys": ["shift+alt+j"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+
+    { "keys": ["alt+c"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+
+//  { "keys": ["alt+h"], "command": "move", "args": {"by": "words", "forward": false} },
+//  { "keys": ["alt+l"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+//  { "keys": ["shift+alt+h"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+//  { "keys": ["shift+alt+l"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+
+    { "keys": ["alt+h"], "command": "move", "args": {"by": "subwords", "forward": false} },         //按词移动
+    { "keys": ["alt+l"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    { "keys": ["alt+shift+h"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+    { "keys": ["alt+shift+l"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+
+    { "keys": ["alt+i"], "command": "move_to", "args": {"to": "bol", "extend": false} },    //行首行尾
+    { "keys": ["alt+o"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["shift+alt+i"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+    { "keys": ["shift+alt+o"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+    { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },      //多行编辑，扩展光标
+    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },       //滚动屏幕
+    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+
+    { "keys": ["alt+right"], "command": "next_view" },      //切换标签
+    { "keys": ["alt+left"], "command": "prev_view" },
+
+    { "keys": ["alt+]"], "command": "indent" },     //调整缩进
+    { "keys": ["alt+["], "command": "unindent" },
+
+    { "keys": ["f2"], "command": "goto_definition" },
+
+    { "keys": ["alt+q"], "command": "jump_back" },
+    { "keys": ["alt+shift+q"], "command": "jump_forward" },
+
+    { "keys": ["alt+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+    { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+
+    { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+    { "keys": ["ctrl+d"], "command": "find_under_expand" },
+    { "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
+    { "keys": ["ctrl+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
+    { "keys": ["alt+,"], "command": "expand_selection", "args": {"to": "brackets"} },
+    { "keys": ["alt+\\"], "command": "move_to", "args": {"to": "brackets"} },
+    { "keys": ["ctrl+shift+j"], "command": "expand_selection", "args": {"to": "indentation"} },
+    { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+
+    { "keys": ["alt+'"], "command": "swap_line_up" },       //将行上移，下移
+    { "keys": ["alt+;"], "command": "swap_line_down" },
+
+    { "keys": ["alt+backspace"], "command": "delete_word", "args": { "forward": false } },
+    { "keys": ["shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
+
+    { "keys": ["alt+delete"], "command": "delete_word", "args": { "forward": true } },
+    { "keys": ["shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
+
+    { "keys": ["alt+/"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": true } },
+
+    { "keys": ["ctrl+j"], "command": "join_lines" },
+    { "keys": ["alt+-"], "command": "duplicate_line" },
+
+    { "keys": ["ctrl+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+    { "keys": ["alt+a"], "command": "auto_complete" },
+    { "keys": ["alt+a"], "command": "replace_completion_with_auto_complete", "context":
+        [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["alt+t"], "command": "transpose" },      //交换字母
+
+    { "keys": ["f2"], "command": "next_bookmark" },
+    { "keys": ["shift+f2"], "command": "prev_bookmark" },
+    { "keys": ["ctrl+f2"], "command": "toggle_bookmark" },
+    { "keys": ["ctrl+shift+f2"], "command": "clear_bookmarks" },
+    { "keys": ["alt+f2"], "command": "select_all_bookmarks" },
+
+    { "keys": ["alt+x"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+//  { "keys": [""], "command": "wrap_lines" },
+
+    { "keys": ["alt+d", "u"], "command": "upper_case" },
+    { "keys": ["alt+d", "l"], "command": "lower_case" },
+
+    { "keys": ["alt+e"], "command": "set_mark" },
+    { "keys": ["ctrl+k", "ctrl+a"], "command": "select_to_mark" },
+    { "keys": ["ctrl+k", "ctrl+w"], "command": "delete_to_mark" },
+    { "keys": ["ctrl+k", "ctrl+x"], "command": "swap_with_mark" },
+    { "keys": ["ctrl+k", "ctrl+y"], "command": "yank" },
+    { "keys": ["ctrl+k", "ctrl+g"], "command": "clear_bookmarks", "args": {"name": "mark"} },
+    { "keys": ["ctrl+k", "ctrl+c"], "command": "show_at_center" },
+
+    { "keys": ["alt+="], "command": "fold" },
+    { "keys": ["alt+shift+="], "command": "unfold" },
+
+    { "keys": ["ctrl+k", "ctrl+1"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["ctrl+k", "ctrl+2"], "command": "fold_by_level", "args": {"level": 2} },
+    { "keys": ["ctrl+k", "ctrl+3"], "command": "fold_by_level", "args": {"level": 3} },
+    { "keys": ["ctrl+k", "ctrl+4"], "command": "fold_by_level", "args": {"level": 4} },
+    { "keys": ["ctrl+k", "ctrl+5"], "command": "fold_by_level", "args": {"level": 5} },
+    { "keys": ["ctrl+k", "ctrl+6"], "command": "fold_by_level", "args": {"level": 6} },
+    { "keys": ["ctrl+k", "ctrl+7"], "command": "fold_by_level", "args": {"level": 7} },
+    { "keys": ["ctrl+k", "ctrl+8"], "command": "fold_by_level", "args": {"level": 8} },
+    { "keys": ["ctrl+k", "ctrl+9"], "command": "fold_by_level", "args": {"level": 9} },
+    { "keys": ["ctrl+k", "ctrl+0"], "command": "unfold_all" },
+    { "keys": ["ctrl+k", "ctrl+j"], "command": "unfold_all" },
+    { "keys": ["ctrl+k", "ctrl+t"], "command": "fold_tag_attributes" },
+
+
+
+
+]

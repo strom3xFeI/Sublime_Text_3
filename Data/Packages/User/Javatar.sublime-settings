@@ -1,0 +1,27 @@
+{
+	"javatar_gp": 0,
+	"jdk_version":
+	{
+		"JDK1.7.0u55":
+		{
+			"path": "C:\\Program Files (x86)\\Java\\jdk1.7.0_55\\bin",
+			"update": "55",
+			"version": "1.7.0"
+		},
+		"use": ""
+	},
+	"message_id": 20,
+	"project_data":
+	{
+		"2":
+		{
+			"folders":
+			[
+				{
+					"follow_symlinks": true,
+					"path": "E:\\documents\\studyblog"
+				}
+			]
+		}
+	}
+}

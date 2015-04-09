@@ -1,0 +1,851 @@
+{
+	"folder_history":
+	[
+		"/F/documents/studyblog",
+		"/F/库/文档/eclipse",
+		"/E/documents/studyblog"
+	],
+	"last_version": 3083,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 696.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"j",
+						"j.i	java.io."
+					],
+					[
+						"ol",
+						"ol	Tag"
+					],
+					[
+						"加",
+						"加强语气"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 247.0,
+				"selected_items":
+				[
+					[
+						"Snippet: ",
+						"Snippet: __magic__"
+					],
+					[
+						"python",
+						"Set Syntax: Python"
+					],
+					[
+						"py",
+						"Set Syntax: Python"
+					],
+					[
+						"pyth",
+						"SublimeREPL: Python"
+					],
+					[
+						"instll",
+						"Package Control: Install Package"
+					],
+					[
+						"co",
+						"Color Picker"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"",
+						"BracketHighlighter: Enable Debug Mode"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"text",
+						"Set Syntax: Plain Text"
+					],
+					[
+						"color",
+						"Color Picker"
+					],
+					[
+						"col",
+						"Color Picker"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"insatl",
+						"Package Control: Install Package"
+					],
+					[
+						"isntall",
+						"Package Control: Install Package"
+					],
+					[
+						"setting",
+						"Preferences: Settings - User"
+					]
+				],
+				"width": 464.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/E/documents/studyblog/Python/1/Demo2.py",
+				"/E/documents/studyblog/Python/1/python01字符串的处理",
+				"/E/documents/studyblog/Python/1/python02数值与运算符",
+				"/E/documents/studyblog/Python/1/StringDemo.py",
+				"/E/documents/studyblog/Python/hello.py",
+				"/F/库/桌面/hello.py",
+				"/D/Sublime_Text_3/Data/Packages/Default/Default (Windows).sublime-keymap",
+				"/D/Sublime_Text_3/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/E/documents/studyblog/java/week7/java04-反射",
+				"/E/documents/studyblog/java/week7/java03-jdk1.5新特性",
+				"/E/documents/studyblog/java/week7/java03-Dom＆DHTML",
+				"/E/documents/studyblog/java/week7/java04-BOM",
+				"/F/库/文档/eclipse/week7/cn.txt",
+				"/E/documents/studyblog/java/week7/java02-正则表达式",
+				"/E/documents/studyblog/java/week7/java01",
+				"/F/库/桌面/hosts",
+				"/E/documents/studyblog/web/html04",
+				"/E/documents/studyblog/web/html03-标记语义应用",
+				"/D/Sublime_Text_3/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+				"/E/documents/studyblog/java/week6/java03-web",
+				"/E/documents/studyblog/java/week6/java02-GUI",
+				"/E/documents/studyblog/java/week6/java01-其他流",
+				"/E/documents/studyblog/java/week6/java02-序列流SequenceInputStream",
+				"/E/documents/studyblog/java/week6/java03-ObjectInputStream&ObjectOutputStream",
+				"/E/documents/studyblog/java/week5/java07-Properties类",
+				"/E/documents/studyblog/java/week6/java01-PrintStream&PrintWriter",
+				"/E/documents/studyblog/web/html标记语义应用",
+				"/E/documents/studyblog/web/html",
+				"/E/documents/studyblog/web/html文档标记",
+				"/E/documents/studyblog/linux/版本管理工具/版本管理工具",
+				"/F/库/桌面/IntelliJ IDEA 14.0.3.lnk",
+				"/F/库/文档/eclipse/.recommenders/index/http___download_eclipse_org_recommenders_models_luna_/_8.fdt",
+				"/F/库/桌面/html.html",
+				"/H/1/Default (Linux).sublime-keymap",
+				"/H/1/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 22.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"pick",
+					"color",
+					"mate",
+					"示",
+					"java"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"meta",
+					"识"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 22.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 120.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 40.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 192.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			}
+		},
+		"new_window_width": 1193.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"a",
+						"a	HTML - Anchor"
+					],
+					[
+						"I",
+						"ImputStream、Outputstream"
+					],
+					[
+						"J",
+						"JTextArea"
+					],
+					[
+						"if",
+						"ifmain	if __name__ == '__main__'"
+					],
+					[
+						"prn",
+						"PendingDeprecationWarning	(class)"
+					],
+					[
+						"v",
+						"value"
+					],
+					[
+						"k",
+						"key"
+					],
+					[
+						"j",
+						"j.i	java.io."
+					],
+					[
+						"ol",
+						"ol	Tag"
+					],
+					[
+						"加",
+						"加强语气"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/F/documents/studyblog/web/html05-练习与表格",
+					"settings":
+					{
+						"buffer_size": 2885,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 377.0,
+				"last_filter": "dele",
+				"selected_items":
+				[
+					[
+						"dele",
+						"File: Delete"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"rename",
+						"File: Rename"
+					],
+					[
+						"setting",
+						"Preferences: Settings - Default"
+					],
+					[
+						"java",
+						"Set Syntax: Java"
+					],
+					[
+						"set c",
+						"Set Syntax: C"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"set syc",
+						"Set Syntax: C"
+					],
+					[
+						"python",
+						"SublimeREPL: Python"
+					],
+					[
+						"new",
+						"File: New View into File"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"javatr",
+						"Javatar: Builds..."
+					],
+					[
+						"build",
+						"Build: Build"
+					],
+					[
+						"javatar",
+						"Javatar: Operations..."
+					],
+					[
+						"buil",
+						"Build: Build"
+					],
+					[
+						"bui",
+						"Build: Build"
+					],
+					[
+						"javac",
+						"Javatar: Calls..."
+					],
+					[
+						"javatarse",
+						"Preferences: Javatar Settings – User"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"settingus",
+						"Preferences: Settings - User"
+					],
+					[
+						"py",
+						"Set Syntax: Python"
+					],
+					[
+						"Snippet: ",
+						"Snippet: __magic__"
+					],
+					[
+						"pyth",
+						"SublimeREPL: Python"
+					],
+					[
+						"instll",
+						"Package Control: Install Package"
+					],
+					[
+						"co",
+						"Color Picker"
+					],
+					[
+						"",
+						"BracketHighlighter: Enable Debug Mode"
+					],
+					[
+						"text",
+						"Set Syntax: Plain Text"
+					],
+					[
+						"color",
+						"Color Picker"
+					],
+					[
+						"col",
+						"Color Picker"
+					],
+					[
+						"insatl",
+						"Package Control: Install Package"
+					],
+					[
+						"isntall",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 464.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"cls",
+					"c;s",
+					"clear",
+					"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/F/documents/studyblog",
+				"/F/documents/studyblog/linux",
+				"/F/documents/studyblog/web"
+			],
+			"file_history":
+			[
+				"/F/documents/studyblog/java/week13/javaIO",
+				"/F/documents/studyblog/linux/fedora/4-5",
+				"//OPENWRT/OpenWrt/www/doc/index.html",
+				"//OPENWRT/OpenWrt/www/index.html",
+				"/F/库/桌面/index.html",
+				"/D/Sublime_Text_3/Data/Packages/User/Preferences.sublime-settings",
+				"/F/documents/studyblog/linux/fedora/Fedora 启动sshd服务",
+				"/D/Sublime_Text_3/Data/Packages/Default/Preferences.sublime-settings",
+				"/F/documents/studyblog/java/week13/JTextArea实现滚动",
+				"/F/库/文档/My Games/Borderlands 2/WillowGame/SaveData/76561197960789826/profile.bin",
+				"/D/hello.c",
+				"/D/Sublime_Text_3/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/a.exe",
+				"/D/demo.c",
+				"/F/documents/studyblog/java/week7/java03-jdk1.5新特性",
+				"/I/linux/Preferences.sublime-settings",
+				"/I/linux/Default (Windows).sublime-keymap",
+				"/K/isolinux/syslinux.cfg",
+				"/L/boot/grub/RUN.LST",
+				"/L/boot/grub/PJ.LST",
+				"/L/boot/grub/type.lst",
+				"/L/boot/grub/HDD.LST",
+				"/G/collections/yos/Clover UEFI 手工安装包/Clover UEFI 手工安装包/Fat32 U盘/refit.conf",
+				"/F/库/桌面/arch",
+				"/M/boot/grub/grub.cfg",
+				"/M/boot/grub/loopback.cfg",
+				"/L/boot/grub/menu.lst.example",
+				"/L/boot/grub/menu.lst",
+				"/M/EFI/BOOT/BOOTx64.EFI",
+				"/M/EFI/BOOT/grubx64.efi",
+				"/L/boot/grub/device.map",
+				"/E/documents/studyblog/java/week5/java06-File",
+				"/I/BOOTMGR",
+				"/K/MENU.LST",
+				"/J/boot/grub/type.lst",
+				"/J/boot/grub/PJ.LST",
+				"/J/boot/grub/RUN.LST",
+				"/J/boot/grub/HDD.LST",
+				"/I/03pe.WIM",
+				"/I/grldr",
+				"/I/boot/BOOTMGR",
+				"/I/boot/grub/message",
+				"/J/type/TYPE.isz",
+				"/J/SRS/0E11.lzma",
+				"/H/bd/2014021613092998480/_SolidSQUAD_/materialstudio.lic",
+				"/E/documents/studyblog/java/week9/文件传输器",
+				"/E/documents/studyblog/java/week9/java01-多线程",
+				"/F/库/桌面/httpwlkt.nuist.edu.cn%28S%283fhfnf55i54wcj55uhkayt55%29%29studentchengji.html",
+				"/E/documents/studyblog/java/week8/java01-多线程",
+				"/E/documents/studyblog/Python/1/python08文件和对象",
+				"/E/documents/studyblog/Python/1/python07组织程序",
+				"/E/documents/studyblog/Python/1/python06类与对象",
+				"/E/documents/studyblog/Python/1/python05函数",
+				"/E/documents/studyblog/Python/1/python04判断与循环",
+				"/D/Sublime_Text_3/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/E/documents/studyblog/Python/1/Demo1String.py",
+				"/E/documents/studyblog/Python/1/Demo2.py",
+				"/E/documents/studyblog/Python/1/Demo3.py",
+				"/E/documents/studyblog/Python/1/Demo4.py",
+				"/E/documents/studyblog/Python/1/python03变量",
+				"/F/库/桌面/demo.java",
+				"/D/Sublime_Text_3/Data/Packages/Javatar/Javatar.sublime-settings",
+				"/D/Sublime_Text_3/Data/Packages/User/Javatar.sublime-settings",
+				"/D/Sublime_Text_3/Data/Packages/Javatar/README.md",
+				"/D/Sublime_Text_3/Data/Packages/SublimePythonIDE/SublimePython.sublime-settings",
+				"/E/documents/studyblog/java/week7/java08-多线程",
+				"/E/documents/studyblog/java/week7/java08-JDBC",
+				"/E/documents/studyblog/java/week7/java07-代理",
+				"/E/documents/studyblog/java/week7/java06-类加载器",
+				"/E/documents/studyblog/java/week7/java03-jdk1.5新特性",
+				"/E/documents/studyblog/java/week7/java06-注解",
+				"/E/documents/studyblog/java/week7/zzzzjava04-BOM",
+				"/E/documents/studyblog/java/week7/java04-反射",
+				"/E/documents/studyblog/java/week7/java05-集合",
+				"/E/documents/studyblog/Python/1/python01字符串的处理",
+				"/E/documents/studyblog/Python/1/python02数值与运算符",
+				"/E/documents/studyblog/Python/1/StringDemo.py",
+				"/E/documents/studyblog/Python/hello.py",
+				"/F/库/桌面/hello.py",
+				"/D/Sublime_Text_3/Data/Packages/Default/Default (Windows).sublime-keymap",
+				"/E/documents/studyblog/java/week7/java03-Dom＆DHTML",
+				"/E/documents/studyblog/java/week7/java04-BOM",
+				"/F/库/文档/eclipse/week7/cn.txt",
+				"/E/documents/studyblog/java/week7/java02-正则表达式",
+				"/E/documents/studyblog/java/week7/java01",
+				"/F/库/桌面/hosts",
+				"/E/documents/studyblog/web/html04",
+				"/E/documents/studyblog/web/html03-标记语义应用",
+				"/D/Sublime_Text_3/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+				"/E/documents/studyblog/java/week6/java03-web",
+				"/E/documents/studyblog/java/week6/java02-GUI",
+				"/E/documents/studyblog/java/week6/java01-其他流",
+				"/E/documents/studyblog/java/week6/java02-序列流SequenceInputStream",
+				"/E/documents/studyblog/java/week6/java03-ObjectInputStream&ObjectOutputStream",
+				"/E/documents/studyblog/java/week5/java07-Properties类",
+				"/E/documents/studyblog/java/week6/java01-PrintStream&PrintWriter",
+				"/E/documents/studyblog/web/html标记语义应用",
+				"/E/documents/studyblog/web/html",
+				"/E/documents/studyblog/web/html文档标记",
+				"/E/documents/studyblog/linux/版本管理工具/版本管理工具",
+				"/F/库/桌面/IntelliJ IDEA 14.0.3.lnk",
+				"/F/库/文档/eclipse/.recommenders/index/http___download_eclipse_org_recommenders_models_luna_/_8.fdt",
+				"/F/库/桌面/html.html",
+				"/H/1/Default (Linux).sublime-keymap",
+				"/H/1/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 90.0,
+				"where_history":
+				[
+					"C:p,<open files>",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"刷新",
+					"line",
+					";",
+					"；",
+					"root",
+					"NT",
+					"this_host",
+					"Runable",
+					";",
+					"_",
+					"Anno",
+					"pick",
+					"color",
+					"mate",
+					"示",
+					"java"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"meta",
+					"识"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "F:\\documents\\studyblog"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/F/documents/studyblog/web/html05-练习与表格",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 2885,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
+									],
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 171.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 31.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 120.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-1,-1,-1,-1,686,221,53,1127",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 169.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
